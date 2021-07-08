@@ -98,7 +98,7 @@ if __name__ == "__main__":
             speak('Opening google')
             webbrowser.open("google.com")
         elif 'intro' in query:
-            speak("I am Jarvis . An artificial intelligence program developed by Rana to asist him in his daily tasks . Now  I am in a development stage . In the near future I would be useful to automate his needs , install an uninstall programs, do complex taskts etc...")
+            speak("I am Jarvis . An artificial intelligence program developed by Ranadeep Suryadevara to asist him in his daily tasks . Now  I am in a development stage . In the near future I would be useful to automate his needs , install an uninstall programs, do complex taskts etc...")
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")
         elif 'open my resume' in query:
