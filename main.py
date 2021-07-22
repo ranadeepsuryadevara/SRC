@@ -130,9 +130,6 @@ if __name__ == "__main__":
         elif 'close google chrome' in query:
             speak("Closing google chrome ")
             os.system("TASKKILL /F /IM chrome.exe")
-        elif 'open cyber security notes' in query:
-            speak('Opening cyber security notes document')
-            os.startfile('D:\pdf\cyber\CS3.docx')
         elif 'i need some info' in query:
             speak("What's the info that you need sir?")
             content = takeCommand()
