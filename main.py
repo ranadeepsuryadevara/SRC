@@ -101,21 +101,15 @@ if __name__ == "__main__":
             speak("I am Jarvis . An artificial intelligence program developed by Ranadeep Suryadevara to asist him in his daily tasks . Now  I am in a development stage . In the near future I would be useful to automate his needs , install an uninstall programs, do complex taskts etc...")
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")
-        elif 'open my resume' in query:
-            speak("Opening your resume sir")
-            webbrowser.open_new(r"F:\DN\My Resume.pdf")
         elif 'what are you doing'  in query:
             speak("Waiting for your commands sir") 
-        
         elif 'open command prompt' in query:
             speak('Opening command prompt sir')
             codePath = "%windir%\system32\cmd.exe"
             os.startfile(codePath)
-
         elif 'close terminal' in query:
             speak('closing command prompt sir')
             os.system("TASKKILL /F /IM cmd.exe")
-
         elif 'jarvis'  in query:
             speak("Yes sir")
         elif 'time' in query:
@@ -152,8 +146,6 @@ if __name__ == "__main__":
         elif 'stop linux machine' in query:
             speak("Closing virtualbox")
             os.system("TASKKILL /F /IM VirtualBox.exe")
-        elif "final touch" in query:
-            playsound("D:\Jarvis\maari bgm.mp3")
         elif 'my ip address' in query:
             IP()
         elif "let's pack it up" in query:
