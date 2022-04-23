@@ -137,15 +137,6 @@ if __name__ == "__main__":
             speak("Closing Microsoft edge ")
             codePath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
             os.system("TASKKILL /F /IM msedge.exe")
-        #elif hour == 18:
-
-        elif 'start linux' in query:
-            speak("Opening virtual box")
-            codePath="C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
-            os.startfile(codePath)
-        elif 'stop linux machine' in query:
-            speak("Closing virtualbox")
-            os.system("TASKKILL /F /IM VirtualBox.exe")
         elif 'my ip address' in query:
             IP()
         elif "let's pack it up" in query:
@@ -158,9 +149,6 @@ if __name__ == "__main__":
         elif 'kill the system' in query:
             speak("OK Boss turning off the computer and going to hibernation")
             os.system("shutdown -s")
-        elif 'start virtual machines' in query:
-            speak("Starting virtual machines")
-            codePath="C:\Program Files\Oracle\VirtualBox\VirtualBox.exe"
-            os.startfile(codePath)
+      
 
         
