@@ -7,13 +7,10 @@ import os
 import smtplib
 import socket
 import subprocess
-#import selenium
 from PIL import Image #pip install pillow
 from playsound import playsound
 engine = pyttsx3.init('sapi5')
-#engine1 = pyttsx3.init('sapi5')
-#voices = engine1.getProperty('voices')
-#engine1.setProperty('voice',voices[0].id)
+
 voices = engine.getProperty('voices')
 
 
